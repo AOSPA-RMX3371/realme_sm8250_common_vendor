@@ -4,6 +4,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter bitra bladerunner bladerunner_48m,$(TARGET_DEVICE)),)
+ifneq ($(filter bitra bladerunner bladerunner_48m RMX3371,$(TARGET_DEVICE)),)
 
 endif
